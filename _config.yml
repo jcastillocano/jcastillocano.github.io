@@ -10,3 +10,21 @@ github_username:  jcastillocano
 
 # Build settings
 markdown: kramdown
+
+# Github config
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
