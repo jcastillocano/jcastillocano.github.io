@@ -31,7 +31,7 @@ configuration, or at least flags to enable/disable this features.
 
 ## Workaround: flags
 
-you cannot go around and update all the cookbooks in Chef Supermarket,
+You cannot go around and update all the cookbooks in Chef Supermarket,
 creating recipes for installation and configuration (if they don't
 already have them), we tried with some of them we found on the way and,
 even if some of them were updated, most of them were just forgotten.
@@ -95,7 +95,7 @@ recipe configures your vhost, just include default always and
 enable/disable features. It sounds redundant, but it makes things a lot
 easier for both testing and deploys. Following this standard we manage
 to have all our main roles using a few cookbook recipes, but the
-posibilities are infinite.
+possibilities are infinite.
 
 # Sum up
 
