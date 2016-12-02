@@ -101,13 +101,13 @@ possibilities are infinite.
 
 We manage to simplify our bakery and deploy process reusing our
 cookbooks so that can be tested and reused over our pipelines (testing
-and deploys). Making this little change in our cookbooks we manage to
+and deploys). Making this little change in our cookbooks we managed to
 reduce the size and complexity of our roles, and we made our test
-process more robust and stable (patterns, patterns everywhere!).
+process more robust and steady (patterns, patterns everywhere!).
 
 We found this issue interesting, but we know there is a long way to go.
-If you want to help us walking this road, please comment or send us an
-email, we'd like to know about other options!
+If you think on a different approach, or an improvement, please comment
+or send us an email, we'd like to know about other options!
 
 [chef]: https://www.chef.io
 [kitchen]: https://kitchen.ci
