@@ -97,7 +97,7 @@ easier for both testing and deploys. Following this standard we manage
 to have all our main roles using a few cookbook recipes, but the
 possibilities are infinite.
 
-# Sum up
+# Summary
 
 We manage to simplify our bakery and deploy process reusing our
 cookbooks so that can be tested and reused over our pipelines (testing
