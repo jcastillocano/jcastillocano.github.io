@@ -177,7 +177,7 @@ allow variable interpolation (thus secrets are stored in _.tfvars_). Current tem
 }
 {% endhighlight %}
 
-Refer each filename on _template\_file_ resources based on what datasources you want to create.
+To create different datasources just change resource names (i.e., _my\_azure\_monitor\_template_ and _my\_azure\_monitor\_dashboard_) and also on _template\_file_ resources update filename based on what kind of endpoint you wnat to monitor (Azure Insights and/or Azure Monitor API).
 
 # Summary
 
