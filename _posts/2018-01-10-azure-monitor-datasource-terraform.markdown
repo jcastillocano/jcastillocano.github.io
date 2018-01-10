@@ -115,7 +115,8 @@ resource "null_resource" "my_azure_monitor_dashboard" {
 
 be sure you define all datasource variables required for this approach (client\_id, tenant\_id, etc.) as well as Grafana
 variables (*grafana_url* and *grafana_token*). In this case, instead of a plain json we will use _template\_file_ to
-allow variable interpolation (thus secrets are stored in _.tfvars_). Current template files:
+allow variable interpolation (thus secrets are stored in _.tfvars_). Current template files (_filename_ field on
+_template\_file_ resources):
 
 #### azure\_monitor\_api\_datasource.json
 {% highlight JSON %}
