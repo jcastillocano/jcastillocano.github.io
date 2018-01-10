@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Manage Azure Monitor Datastores in Grafana automatically with Terraform"
+title:  "Manage Azure Monitor Datasources in Grafana automatically with Terraform"
 date:   2018-01-10 08:08:39 +0000
-categories: terraform grafana azure monitor
+categories: terraform grafana azure monitor datasource
 ---
 
 ## Problem
