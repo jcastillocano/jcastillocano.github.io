@@ -19,13 +19,13 @@ to cover some stones we found on our path, as well as delve into the fixes or wo
 ## Main caveat: DNS
 
 When you are dealing with external DNS, Kubernetes is not the king fo the party. Services like Google App Engine
-provides you external dns enpoints automatically for every version you deploy, while with Kubernetes you don't get more
-than a public IP. That is true there are some extensions (have a look at [external-dns][externaldns]) but the rule is
+provide you external dns enpoints automatically for every version you deploy, while with Kubernetes you don't get more
+than a public IP. Even though there are some extensions (have a look at [external-dns][externaldns]), the rule here is
 _do it yourself_. 
 
 At the moment, we've dealing with IPs only (since it is develop), but we have some ideas on the oven. IP works for us
-since we only access to features from our laptops, so after a new feature deploy we fetch the Load Balancer IP created
-on Kubernetes and we update our config. But the problem raises with service discovery comes to play.
+since we only access features from our laptops, so after a new feature is deployed we fetch the Load Balancer IP created
+by Kubernetes and we update our config. But the problem raises with service discovery comes to play.
 
 As I said before, on Google App Engine you get endpoints like _your-version-your-project.appspot.com_, with HTTPS
 support, and they are discovered automatically. However, if you want to use your own dev domain, you still need to work
