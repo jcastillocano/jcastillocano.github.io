@@ -76,14 +76,14 @@ labelling and filtering. Very interesting if you're new on Prometheus scrapping 
 * [Hackers gotta eat. Building a Company Around an Open Source Project][hackerseat] 
 
 Cool talk from our inspiring Kohsuke Kawaguchi about how to build a business around an open software project: Jenkins.
-He talked about all the different profitable steps Cloud Bees followed until became what it is nowadays. And lucky me,
+He talked about all the different profitable steps Cloud Bees has followed until it became what it is nowadays. Besides,
 I managed to grab a brand new Jenkins X T-shirt! 
 
 * [To the future with Grav CMS][toolthedocs]
 
-I guess the main idea I took from this presentation was we are not far from what other people do with docs: treat them
-as code. Apply same principles (verify, test, deploy) in an automated way, in that way not only corp owners but devs
-will enjoy keeping up to date documentation.
+I guess the main takeaway from this presentation was we are not far from what other people do with docs at System73: treat them
+as you will treat code. Apply same agile principles (verify, build, deploy) in an automated fashion way. In that way not only QA or
+managers but devs will join keeping doc up to date without too much hassle.
 
 * Brussels
 
