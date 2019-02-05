@@ -34,6 +34,31 @@ https://cfgmgmtcamp.eu/schedule/monday/unikernels/
 * TODO: Solving large scale operational metadata problems using stream processing
 https://cfgmgmtcamp.eu/schedule/monday/metastreamprocess/
 
+## Istio
+
+* TODO: Istio: Control and Observability for Microservices
+https://cfgmgmtcamp.eu/schedule/tuesday/istioobserve/
+
+better to follow docs 
+
+## Testing
+
+* [What did you InSpec][whatdidyouinspec]
+
+TIP: Use for docker images and databases too
+TIP2: Use `inspec shell` to validate your tests
+
+* Jenkins/Packer/Inspec/Terraform to bake and test AWS AMIs
+
+## Security
+
+Clair - https://github.com/coreos/clair - https://github.com/arminc/clair-local-scan
+OWASP Zed Attack Proxy (ZAP) / Nessus / Burp Suite / Arachni - Vulnerability scanners
+Cypress https://www.cypress.io/
+https://www.metasploit.com
+
+![Security Shift Left!!!](/securityleft.jpeg)
+
 
 ## What else?
 
@@ -41,3 +66,4 @@ See you at home!
 
 [fosdem]:https://fosdem.org
 [system73]:https://system73.com
+[whatdidyouinspec]:https://github.com/dgha/inspec-cfgmgmtcamp-ghent-2019
