@@ -30,7 +30,7 @@ Best quote of the talk was this one:
 This one was more like an interactive chat (like open sessions in DevOps days) where Anton drove the session, but anyone could express
 and ask. It was a bit disappointed because I thought more testing stuff will be shown (in fact half of the room was against testing 
 Terraform code, best way to test it is to actually apply and see what happens), but on the other hand some good tips where given, like
-how to structure your modules to make them easy to reuse, reduce blast radio applying small changes and how to handle non-backward 
+how to structure your modules to make them easy to reuse, reduce blast radius applying small changes and how to handle non-backward 
 compatible changes from providers' APIs. 
 
 ### Tools
