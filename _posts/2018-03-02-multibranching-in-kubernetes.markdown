@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Manage multibranching projects on Kubernetes"
+title:  "Managing multibranching projects on Kubernetes"
 date:   2018-03-02 08:08:39 +0000
 categories: kubernetes git version gae
 ---
