@@ -7,41 +7,30 @@ categories: config management camp ghent
 
 ## Around Config Management Camp 2019
 
-This is my very first time at [FOSDEM][fosdem], although I've been following it since a while ago (thanks FOSDEM fellas for streaming 
-all the main talks!). This year I had the chance to come thanks to my current employeer [System73][system73] alongside some
-coworkers. Main target this year for me was Infrastructure, Monitoring and Testing talks, and I have plenty of them (as reach
-talks, offline chats or even just following links from some slides). Here are my take overs. 
+Like [FOSDEM][fosdem], this is also my first time at [Config Management Camp][cmc]. I'm not sure if I was expecting less from this event than from FOSDEM, or perhaps it was the unpleasant weather in Brussels, but I did really enjoy more CMC. Here are my take overs. 
 
 ## Observability
 
-* TODO: Observability for emerging infra: what got you here won't get you there
-https://cfgmgmtcamp.eu/schedule/monday/keynote0/
+It was the first time I had the chance to attend Charity Majors' live talks (I declare myself a fan, so many of her posts and youtube videos helped me in the past I've already lost the count...) and as always she never dissapointed me, what a keynote she granted us! Full of passion, unicorns and memes (Charity's style) kept us engadged for more than an hour.
+
+From testing in production up to focus on what really matters (forget about the known unknowns, focus on the unknoun unknouns!) the gave us some helpful tips and shared some guidance towards observability in microservices ecosystems. More about her talk _Observability for emerging infra: what got you here won't get you there_ [here][keynote]
 
 ![Deployments](/deployments.jpeg)
 
-* TODO: Drilling down a software bug: lessons about observability, monitoring, automation and good practices
-https://cfgmgmtcamp.eu/schedule/monday/drilling/
+Another cool talk was _Drilling down a software bug: lessons about observability, monitoring, automation and good practices_. My takeover were the five *whys* (you should never ask yourself more than five whys while debugging an issue, don't go further) and disseminate your postmortens out of your team. Second one was particulary interesting because it reflected how her team learnt from other teams mistakes and thus less and less company errors (communications issues mainly) were fixed within less than a year. I've never thought about writting postmortens for company processes, that was both shocking and smart.  More about that [here][drilling].
 
 ![Best Practices](/bestpractices.jpeg)
 
-## Unikernels
+## Some hot topics
 
-* TODO: Configuration and configuration management with Unikernels
-https://cfgmgmtcamp.eu/schedule/monday/unikernels/
+Scattered talks gave me some topics to check later; while I heard them before never caught my attention until this talks, I promisse I'll give it a whirl! These hot topics were:
 
-## Stream Processing
+ * [Unikernels][unikernels]: Configuration and configuration management with Unikernels
+ * [Stream Processing][streamprocessing]: Solving large scale operational metadata problems using stream processing
+ * [Istio][istio]: Control and Observability for Microservices
 
-* TODO: Solving large scale operational metadata problems using stream processing
-https://cfgmgmtcamp.eu/schedule/monday/metastreamprocess/
 
-## Istio
-
-* TODO: Istio: Control and Observability for Microservices
-https://cfgmgmtcamp.eu/schedule/tuesday/istioobserve/
-
-better to follow docs 
-
-## Testing
+## Testing TODO
 
 * [What did you InSpec][whatdidyouinspec]
 
@@ -52,18 +41,25 @@ TIP2: Use `inspec shell` to validate your tests
 
 ## Security
 
-Clair - https://github.com/coreos/clair - https://github.com/arminc/clair-local-scan
-OWASP Zed Attack Proxy (ZAP) / Nessus / Burp Suite / Arachni - Vulnerability scanners
-Cypress https://www.cypress.io/
-https://www.metasploit.com
+And last but not least, some names related to security that everyone should be aware of:
+
+ * *Clair* - https://github.com/coreos/clair - https://github.com/arminc/clair-local-scan
+ * *OWASP Zed Attack Proxy (ZAP) / Nessus / Burp Suite / Arachni* - Vulnerability scanners
+ * *Cypress* - https://www.cypress.io/
+ * *Metasploit* - https://www.metasploit.com
 
 ![Security Shift Left!!!](/securityleft.jpeg)
 
 
 ## What else?
 
-See you at home!
+After an intense week, full of great content and foody experiences, it's time to go back to Tenerife. My deepest thanks to CMC team for such a great time and hope to meet you all again!
 
 [fosdem]:https://fosdem.org
 [system73]:https://system73.com
 [whatdidyouinspec]:https://github.com/dgha/inspec-cfgmgmtcamp-ghent-2019
+[keynote]:https://cfgmgmtcamp.eu/schedule/monday/keynote0/
+[drilling]:https://cfgmgmtcamp.eu/schedule/monday/drilling/
+[istio]:https://cfgmgmtcamp.eu/schedule/tuesday/istioobserve/
+[streamprocessing]:https://cfgmgmtcamp.eu/schedule/monday/metastreamprocess/
+[unikernels]:https://cfgmgmtcamp.eu/schedule/monday/unikernels/

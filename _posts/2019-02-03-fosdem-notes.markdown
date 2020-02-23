@@ -9,7 +9,7 @@ categories: fosdem open source
 
 This was my very first time at [FOSDEM][fosdem], although I've been following it since a while ago (thanks FOSDEM fellas for streaming 
 all the main talks!). This year I had the chance to come over, thanks to my current employeer [System73][system73], along with some
-coworkers. Main target this year for me was Infrastructure, Monitoring and Testing talks, and I had plenty of them (such as live
+colleages. Main target this year for me was Infrastructure, Monitoring and Testing talks, and I had plenty of them (such as live
 talks, offline chats or even just following links from some slides). Here are my top notch talks:
 
 ## Terraform
@@ -29,7 +29,7 @@ Best quote of the talk was this one:
 
 This one was more like an interactive chat (like open sessions in DevOps days) where Anton drove the session, but anyone could express
 and ask. It was a bit disappointed because I thought more testing stuff will be shown (in fact half of the room was against testing 
-Terraform code, best way to test it is to actually apply and see what happens), but on the other hand some good tips where given, like
+Terraform code, best way to test it is to actually apply it and see what happens), but on the other hand some good tips where given, like
 how to structure your modules to make them easy to reuse, reduce blast radius applying small changes and how to handle non-backward 
 compatible changes from providers' APIs. 
 
@@ -40,9 +40,9 @@ to run terraform based on webhooks from pull requests, adding plan and apply res
 enabling collaboration within your team mates in an easy and standard way. Honestly, an interesting one, if we manage to use it well it
 will solve some of the problems we already have with terraform (code sharing, review, testing, etc).
 
-* [Terragrunt][terragrunt]: another interesting tool, this one helps keeping clean our terraform configurations, allowing us to work with
-terraform modules in a less messy way. Still not convinced until I give it a go, but pretty sure it will be a helping one given the fact
-we're starting to have reusable code elsewhere.
+* [Terragrunt][terragrunt]: another interesting tool; this one helps keeping clean our terraform configurations, allowing us to work with
+terraform modules in a less messy way. I won't be convinced until I give it a go, but pretty sure it will be a helping one given the fact
+we're starting to have reusable code everywhere.
 
 ## K8S
 
@@ -62,7 +62,7 @@ it makes sense to our organization (given the fact we have multiple Prometheus c
 
 ## Prometheus
 
-Like Kubernetes, there was a huge hype about Prometheus, with some talks related to it. Again, I managed to listen just one, but enough
+Like Kubernetes, there was a huge hype about Prometheus, with some talks related to it. Again, I managed to listen to just one, but enough
 to convince me Prometheus is the future for metrics.
 
 * [Deep Dive: Kubernetes Metrics with Prometheus][deepdive]
@@ -82,7 +82,7 @@ I managed to grab a brand new Jenkins X T-shirt!
 * [To the future with Grav CMS][toolthedocs]
 
 I guess the main takeaway from this presentation was we are not far from what other people do with docs at System73: treat them
-as you will treat code. Apply same agile principles (verify, build, deploy) in an automated fashion way. In that way not only QA or
+as you will treat code. Applying same Agile principles (verify, build, deploy) in an automated fashion way not only QA or 
 managers but devs will join keeping doc up to date without too much hassle.
 
 * Brussels
@@ -95,7 +95,7 @@ Brussels' adventure.
 
 ![Some Belgian beers](/beer.jpeg)
 
-[![Snow](/snow.png)](https://www.juancarloscastillocano.es/snow.mp4)
+[![Snow](/snow.png)](https://www.juancarloscastillocano.com/snow.mp4)
 
 ## What else?
 
