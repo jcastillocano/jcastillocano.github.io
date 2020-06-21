@@ -30,7 +30,7 @@ Scattered talks gave me some topics to check later; while I heard them before ne
  * [Istio][istio]: Control and Observability for Microservices
 
 
-## Testing TODO
+## Testing
 
 * [What did you InSpec][whatdidyouinspec]
 
