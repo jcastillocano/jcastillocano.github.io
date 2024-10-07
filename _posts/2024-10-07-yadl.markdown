@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "YADL - Yet Another Data Lake"
+date:   2024-10-07 10:08:39 +0000
+categories: python datalake athena dbt cloudquery
+---
+
+# YADL - Yet Another Data Lake
+
